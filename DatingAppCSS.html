@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating App in CSS</title>
+    <link rel="stylesheet" type="text/css" href="Dating.css"> <!--adding css file Dating.css-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> <!--Add font from Google-->
+</head>
+<h1>
+    Dating Form
+    <!--Adding image-->
+    <div class="CallImage">
+        <img src="https://cdn.pixabay.com/photo/2016/03/08/13/13/hearts-1243953_960_720.png" alt="" width=500> 
+    </div>
+</h1>
+ <form  action="https://www.google.com/" method="GET">
+        
+    <div class="LoadForm">
+    <!--first name-->
+        <label for="fname">First Name   : </label>
+        <input type="text" placeholder="First Name" name="fName" id="fname" required >
+        <br>
+  <!--Surname-->
+        <label for="sname">Surname      : </label>
+        <input type="text" placeholder="Surname" name="sname" id="sname" required>
+        <br>
+        <!--Email Address-->
+        <label for="eid">  E-mail Address: </label>
+        <input type="email" placeholder="Email"name="eid" id="eid" required>
+        <br>
+        <!--Mobile Number-->
+        <label for="Mobno">Mobile Number: </label>
+        <input type="number" name="Mobno" id="Mobno" required>
+        <br>
+        <!--Date Of Birth-->
+        <label for="Dobdt">Date Of Birth: </label>
+        <input type="date" name="Dobdt" id="Dobdt" required>
+        <br>
+        <!--Weight-->
+        <label for="Wgt">Weight: </label>
+        <input type="number" name="Wgt" id="Wgt" required> in Kgs
+        <br>
+        <!--Height-->
+        <label for="Hgt">Height: </label>
+        <input type="number" name="Hgt" id="Hgt" required> in cms
+        <br>
+        
+
+        <!--Date Of Proposed Outting-->
+        <label for="Odt">Date Of Proposed Outting: </label>
+        <input type="date" name="Odt" id="Odt" required>
+        <br>
+        <!--Gender-->
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="Gender" id="Gender" value="Male">Male
+        <input type="radio" name="Gender" id="Gender" value="Female">Female
+        <input type="radio" name="Gender" id="Gender" value="Other">Others
+        <br>
+        <!--Other Details-->
+        <label for="CheckTatoo">Have Body Tatoo:</label>
+        <input type="checkbox" name="CheckTatoo" id="CheckTatoo" value="Have Body Tatoo">
+        <br>
+        <!--Checkbox for Plane-->
+        <label for="CheckPlane">Own a Plane/Van/Ferrari:</label>
+        <input type="checkbox" name="CheckPlane" id="CheckPlane" value="Own a Plane/Van/Ferrari">
+        <br>
+        <!--Checkbox for a full time job-->
+        <label for="CheckJob">Have a full time job:</label>
+        <input type="checkbox" name="CheckJob" id="CheckJob" value="Have a full time job">
+        <br>
+        <!--Checkbox for a Parents are rich-->
+        <label for="CheckRich">Parents are rich:</label>
+        <input type="checkbox" name="CheckRich" id="CheckRich" value="Parents are Rich">
+        <br>
+        <!--Place for dating-->
+        <label for="Placedt">Place for dating:</label>
+        <input type="radio" name="Placedt" id="Placedt" value="Private">Private Place 
+        <input type="radio" name="Placedt" id="Placedt" value="Public">Public Place   
+        <input type="text"  name="Plname" id="Plname" placeholder="Name the place">
+        <br>
+        <!--Highest Education-->
+        <label for="Edu">Highest Qualification:</label>
+        	<select name="Edu" id="Edu">
+                    <option value=""></option>
+                    <option value="Diploma">Diploma</option>
+                    <option value="Bachelors">Bachelors</option>
+                    <option value="Masters">Masters</option>
+                    <option value="Ph.D">PhD</option>
+                    <option value="Others">Others</option>
+                    <input type="text" placeholder="Details" name="Details" id="Details">
+                </select>
+                <br>
+        <!--Reason for Dating-->
+                <label for="DtReason">Why do you want to date my daughter?</label>
+                <textarea id="DtReason" name="DtReason" rows="5" cols="50"></textarea>
+                <br>
+       <!--Reference Contact Point-->
+                <label for="RefName">A contact person for reference</label>
+                <input type="text" name="RefName" id="RefName" placeholder="Refernce's Name" >
+                <br>
+            <!--Reference Contact Number-->
+                <label for="RefNo">Reference's contact number</label>
+                <input type="number" name="RefNo" id="RefNo">
+                <br>
+            <!--Upload Bank statement-->
+            <!--&#128516 is an emoji-->
+                <!--<label for="fileToUpload" size="4" &#128516;>Upload Bank Statement: </label>-->
+                <label for="fileToUpload">Upload Bank Statement: </label>
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <br>
+                <!--Submit Button-->
+                <input type="Submit" value="Submit">              
+                <input type="Reset" value="Reset">              
+                
+            </div>
+        </form>
+    
+
+</body>

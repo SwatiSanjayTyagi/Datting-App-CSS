@@ -1,0 +1,136 @@
+/* CSS file for Dating app */
+/* code written in "*" selector is used everywhere in the code*/
+/*Special Dancing script - cursive font used*/
+*{
+    background-color: #f0e68c;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    color:rgb(255,00, 00) ; /* rgb red color specified*/
+    
+ }
+ 
+/*H1 alienment*/
+h1{
+       width: 30%;
+       height: 20px;
+       border:none;
+       margin: auto;
+       padding-left: 520px;
+       padding-top: 10px;
+       padding-right: 520px;
+       padding-bottom: 10px;
+   }
+/*Image alienment*/
+.CallImage{
+       
+            width: 30%;
+            height:fit-content;
+            border: none;
+/*          border: dotted rgb(255,00, 00) 2px;*/
+            margin-left: 150px;
+            padding-left: 10px;
+    
+        }
+/*Form load settings*/
+.LoadForm{
+       
+            width: 90%;
+            height: auto;
+            border:none;
+            /*border: dotted rgb(255,00, 00) 2px;*/
+            margin-inline-start:auto;
+            margin-left: 10px;
+            padding-left: 10px;
+        }
+/*Input Type Text settings*/
+input[type=text], select 
+{
+     width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255,00,00);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/*Input type email setting*/  
+input[type=email], select 
+{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255,00,00);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/*Input type number setting*/
+input[type=number], select 
+{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255,00,00);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/*Input type date setting*/
+input[type=date], select 
+{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255,00,00);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Style the submit button */
+input[type=submit] 
+{
+    width: 30%;
+    background-color: #f0e68c;
+    color: rgb(255,00,00);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(255,00,00);
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*Styling the Reset button*/
+input[type=reset] 
+{
+    width: 30%;
+    background-color: #f0e68c;
+    color: rgb(255,00,00);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(255,00,00);
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*Input typt textarea setting*/
+#DtReason 
+{
+    border: 1px solid rgb(255,00,00);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/*Gender space increase*/
+#Gender {
+    width: 9%;
+}
+/*Checkboxes alienment*/
+#CheckTatoo {
+    width:50%
+}
+#CheckPlane {
+    width:27.5%
+}
+#CheckJob {
+    width:44%
+}
+#CheckRich {
+    width:52.5%
+}
